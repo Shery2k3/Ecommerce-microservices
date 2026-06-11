@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: api-gateway
+  cloud:
+    gateway.discovery.locator
+server:
+  port: 8080
+eureka:
+  client:
+    service-url:
+      http://localhost:8761/eureka/
