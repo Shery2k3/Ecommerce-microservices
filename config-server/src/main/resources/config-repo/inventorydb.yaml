@@ -1,0 +1,8 @@
+server:
+  port: 8083
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/inventorydb
+    username: ${DB_USERNAME:microservice-user}
+    password: ${DB_PASSWORD}
+    driver-class-name: org.postgresql.Driver

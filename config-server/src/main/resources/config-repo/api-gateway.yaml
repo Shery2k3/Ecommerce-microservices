@@ -1,6 +1,6 @@
+server:
+  port: 8080
 spring:
-  application:
-    name: api-gateway
   cloud:
     gateway:
       server:
@@ -18,9 +18,3 @@ spring:
               uri: lb://inventory-service
               predicates:
                 - Path=/inventory/**
-server:
-  port: 8080
-eureka:
-  client:
-    service-url:
-        defaultZone: http://localhost:8761/eureka/

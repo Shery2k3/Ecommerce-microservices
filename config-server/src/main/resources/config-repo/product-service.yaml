@@ -1,0 +1,10 @@
+server:
+  port: 8081
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/productdb
+#    username: ${DB_USERNAME:microservice-user}
+#    password: ${DB_PASSWORD}
+    username: microservice_user
+    password: shahryar
+    driver-class-name: org.postgresql.Driver
