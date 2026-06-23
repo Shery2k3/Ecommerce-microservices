@@ -3,6 +3,7 @@ server:
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/inventorydb
-    username: ${DB_USERNAME:microservice-user}
-    password: ${DB_PASSWORD}
+    username: ${DB_USERNAME:microservice_user}
+#    password:
+    password: shahryar
     driver-class-name: org.postgresql.Driver
